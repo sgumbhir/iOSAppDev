@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F5417A5D-CAF3-45B8-935A-DD8EA18D8218"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D0D11BD-E6E8-426D-B3EC-8057E0D7F3FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GumbhirSamikshaHW5Tests/GumbhirSamikshaHW5Tests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "testGetFavorites()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5E9AADB-7F71-4189-95AA-EF3C2490CFFA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GumbhirSamikshaHW5Tests/GumbhirSamikshaHW5Tests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "testInsertEnd()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2F2DCC4-084B-417B-A16D-E3C3216D65B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GumbhirSamikshaHW5/FlashcardsModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getCurrentIndex()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D2F2DCC4-084B-417B-A16D-E3C3216D65B8 - d1cc9f234c02f00b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GumbhirSamikshaHW5.FlashcardsModel.getCurrentIndex() -&gt; Swift.Int"
+                  moduleName = "GumbhirSamikshaHW5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samikshagumbhir/Desktop/Work/ITP342/GumbhirSamikshaHW5/GumbhirSamikshaHW5/FlashcardsModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "D2F2DCC4-084B-417B-A16D-E3C3216D65B8 - 33b9a3729a4d50a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GumbhirSamikshaHW5Tests.FlashcardsModel.getCurrentIndex() -&gt; Swift.Int"
+                  moduleName = "GumbhirSamikshaHW5Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samikshagumbhir/Desktop/Work/ITP342/GumbhirSamikshaHW5/GumbhirSamikshaHW5/FlashcardsModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F15A309-C9F1-4B21-BE4B-5CA0A4079488"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GumbhirSamikshaHW5/FlashcardsModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getCurrentIndex()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

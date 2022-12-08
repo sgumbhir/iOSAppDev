@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GumbhirSamikshaHW3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPt-KM-x8Q">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="ResignKeyboard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xn9-26-KOs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which one do you like?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qu-g8-bYT">
+                                <rect key="frame" x="15.5" y="15" width="344" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="g7j-T8-x21"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doL-67-gCq">
+                                <rect key="frame" x="156.5" y="286" width="62.5" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="BJd-A8-MUt"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Cat" buttonSize="large">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" name="AccentColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="CatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zp8-w6-UqC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hb8-GE-2bA">
+                                <rect key="frame" x="162" y="506" width="51" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="X6d-dG-nfC"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Dog">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" name="AccentColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="DogButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dNT-WT-qu2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2W-Ej-Ku9">
+                                <rect key="frame" x="157" y="616" width="61" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="V6U-Xn-k7R"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Reset">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="DogButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ER-2s-8Js"/>
+                                    <action selector="ResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T5V-H4-uwn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgD-62-wOz">
+                                <rect key="frame" x="70" y="557" width="235" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What is your name?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vAE-Al-PhA">
+                                <rect key="frame" x="34.5" y="66.5" width="306" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="Kp0-6e-zhv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="NameInputReturnKey:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="CpG-LJ-xIG"/>
+                                </connections>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DogPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="rnq-5M-3LF">
+                                <rect key="frame" x="90" y="333" width="195.5" height="165"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CatPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="vBd-tG-Fne">
+                                <rect key="frame" x="81" y="120" width="213" height="158"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="4qu-g8-bYT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="8h8-HR-bFK"/>
+                            <constraint firstItem="tPt-KM-x8Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9w4-AP-YGr"/>
+                            <constraint firstItem="hb8-GE-2bA" firstAttribute="top" secondItem="rnq-5M-3LF" secondAttribute="bottom" constant="8" symbolic="YES" id="Cin-08-Oxp"/>
+                            <constraint firstItem="vAE-Al-PhA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34.5" id="Cm2-Yc-IlO"/>
+                            <constraint firstItem="4qu-g8-bYT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IGi-io-cRO"/>
+                            <constraint firstItem="vAE-Al-PhA" firstAttribute="firstBaseline" secondItem="4qu-g8-bYT" secondAttribute="baseline" constant="40" id="PkZ-E3-BpI"/>
+                            <constraint firstItem="pgD-62-wOz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UCL-nY-lzx"/>
+                            <constraint firstItem="rnq-5M-3LF" firstAttribute="top" secondItem="vBd-tG-Fne" secondAttribute="bottom" constant="55" id="VD8-8M-186"/>
+                            <constraint firstItem="Y2W-Ej-Ku9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VQp-7F-ucV"/>
+                            <constraint firstItem="rnq-5M-3LF" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.247376" id="X2b-6f-Ko0"/>
+                            <constraint firstItem="tPt-KM-x8Q" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="YqG-AK-gs3"/>
+                            <constraint firstItem="vBd-tG-Fne" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b5D-26-ioo"/>
+                            <constraint firstItem="tPt-KM-x8Q" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="b6O-go-2BS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y2W-Ej-Ku9" secondAttribute="bottom" constant="20" id="dbz-0S-sXp"/>
+                            <constraint firstItem="pgD-62-wOz" firstAttribute="width" secondItem="rnq-5M-3LF" secondAttribute="height" multiplier="41:165" constant="194" id="fok-LS-4Fg"/>
+                            <constraint firstItem="vBd-tG-Fne" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.236882" id="ktE-CZ-URQ"/>
+                            <constraint firstItem="hb8-GE-2bA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mon-WU-2Rm"/>
+                            <constraint firstItem="doL-67-gCq" firstAttribute="top" secondItem="vBd-tG-Fne" secondAttribute="bottom" constant="8" symbolic="YES" id="nXC-Nk-Ay2"/>
+                            <constraint firstItem="pgD-62-wOz" firstAttribute="top" secondItem="hb8-GE-2bA" secondAttribute="bottom" constant="18" id="qoE-1m-CgW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vAE-Al-PhA" secondAttribute="trailing" constant="34.5" id="qtR-AY-tX9"/>
+                            <constraint firstItem="Y2W-Ej-Ku9" firstAttribute="firstBaseline" secondItem="pgD-62-wOz" secondAttribute="baseline" constant="35" id="r70-bT-qMp"/>
+                            <constraint firstItem="vBd-tG-Fne" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="stg-qc-Wo1"/>
+                            <constraint firstItem="doL-67-gCq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vCy-rH-bmU"/>
+                            <constraint firstItem="tPt-KM-x8Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vsC-bc-m5t"/>
+                            <constraint firstItem="rnq-5M-3LF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x29-dk-ZKS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Button1" destination="doL-67-gCq" id="aUU-1s-tAC"/>
+                        <outlet property="Button2" destination="hb8-GE-2bA" id="NhO-gQ-q22"/>
+                        <outlet property="Image1" destination="vBd-tG-Fne" id="xQb-fw-TBy"/>
+                        <outlet property="Image2" destination="rnq-5M-3LF" id="4vE-8q-7DM"/>
+                        <outlet property="NameInput" destination="vAE-Al-PhA" id="sY8-e6-eK1"/>
+                        <outlet property="QuestionLabel" destination="4qu-g8-bYT" id="e0b-bE-6UI"/>
+                        <outlet property="ResetOutlet" destination="Y2W-Ej-Ku9" id="WHK-sV-O9D"/>
+                        <outlet property="TextLabel" destination="pgD-62-wOz" id="LaC-s4-8LW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="15.199999999999999" y="81.409295352323838"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CatPhoto" width="213" height="212"/>
+        <image name="DogPhoto" width="195.5" height="192.5"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

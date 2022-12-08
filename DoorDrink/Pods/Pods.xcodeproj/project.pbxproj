@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137C72D1F119B855ADD8B6596224E2CD /* Pods-DoorDrinkTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE585B5E1BC3214DD9F7B1852D479A09 /* Pods-DoorDrinkTests-dummy.m */; };
+		4CF7C384A5ECC9D44CCF7ABBE4DD4F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7FD07E823452FC5F4BD503836531A6F4 /* Pods-DoorDrinkTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E0A41702E76D209471596FD2630D9A /* Pods-DoorDrinkTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92251890C3EE92DE70521D952D6510CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A44CB808EAD71716C896224C99B0B842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C9C733257C5A77AA5CACA3D6F39E5DD1 /* Pods-DoorDrink-DoorDrinkUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0923A2D4A7F3DC6F1331C7B40D8EF3DA /* Pods-DoorDrink-DoorDrinkUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC07AB860A71A1CDB4B97095E57880CC /* Pods-DoorDrink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ABDE3DEFF379C9037357738613F365 /* Pods-DoorDrink-dummy.m */; };
+		F417527AF476452CF632D95EE990120F /* Pods-DoorDrink-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 682DE65982758DB46885D26FA90A1B47 /* Pods-DoorDrink-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6023CD8E5223453C063865050AB8F4E /* Pods-DoorDrink-DoorDrinkUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87902DF0DB2F53A2861C8135694AC14D /* Pods-DoorDrink-DoorDrinkUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD152C05A1AAE757050AA547689A5357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBD179409DD53448C5412613AD5A1687;
+			remoteInfo = "Pods-DoorDrink";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0923A2D4A7F3DC6F1331C7B40D8EF3DA /* Pods-DoorDrink-DoorDrinkUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoorDrink-DoorDrinkUITests-umbrella.h"; sourceTree = "<group>"; };
+		12BF08B14FA031E35A74B40326E457CC /* Pods-DoorDrink-DoorDrinkUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DoorDrink-DoorDrinkUITests"; path = Pods_DoorDrink_DoorDrinkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18159EFEAD99E60ECFB389AF1F6C23D6 /* Pods-DoorDrink-DoorDrinkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoorDrink-DoorDrinkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1AF2590A94F65DB6ABA3C0983968C9A6 /* Pods-DoorDrinkTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoorDrinkTests.modulemap"; sourceTree = "<group>"; };
+		2E640B0E91AB8C28C674085899DE7AD6 /* Pods-DoorDrinkTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoorDrinkTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36ABDE3DEFF379C9037357738613F365 /* Pods-DoorDrink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoorDrink-dummy.m"; sourceTree = "<group>"; };
+		3A21645C002EA456C0ACA74A362CD5E4 /* Pods-DoorDrink-DoorDrinkUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoorDrink-DoorDrinkUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		40E0A41702E76D209471596FD2630D9A /* Pods-DoorDrinkTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoorDrinkTests-umbrella.h"; sourceTree = "<group>"; };
+		412C2A374DFB2A686F744CA865CF6726 /* Pods-DoorDrink-DoorDrinkUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoorDrink-DoorDrinkUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46A7BD8FB74FF81D1B93A5D550EDEDF6 /* Pods-DoorDrinkTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoorDrinkTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		682DE65982758DB46885D26FA90A1B47 /* Pods-DoorDrink-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoorDrink-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B0A605E5E5FE3FBFB6C2E7B3B2EE1F9 /* Pods-DoorDrink-DoorDrinkUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoorDrink-DoorDrinkUITests-Info.plist"; sourceTree = "<group>"; };
+		80C7A118A0E09AD85FCC491B2EA79FA0 /* Pods-DoorDrink */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DoorDrink"; path = Pods_DoorDrink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ADDEB385ED65C98ECB5026B67CA63D /* Pods-DoorDrink.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoorDrink.modulemap"; sourceTree = "<group>"; };
+		87902DF0DB2F53A2861C8135694AC14D /* Pods-DoorDrink-DoorDrinkUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoorDrink-DoorDrinkUITests-dummy.m"; sourceTree = "<group>"; };
+		91EDFE6DC4A609173F6261EEAD18C183 /* Pods-DoorDrink-DoorDrinkUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoorDrink-DoorDrinkUITests.modulemap"; sourceTree = "<group>"; };
+		927E00EBBEF4C3620D784AD1C0B4850A /* Pods-DoorDrink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoorDrink.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC38F488E373CD8126B6FF31BE7BDAED /* Pods-DoorDrink-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoorDrink-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACF8C0B439BE412B49CAC09BBAFAC021 /* Pods-DoorDrinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoorDrinkTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0680FDC436969FF511997D9EB7DBE1B /* Pods-DoorDrinkTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DoorDrinkTests"; path = Pods_DoorDrinkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47F7365DD083C7F308192388DEAB2D9 /* Pods-DoorDrink-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoorDrink-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD096F1144ECAD62B395F843C9B7647D /* Pods-DoorDrink-DoorDrinkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoorDrink-DoorDrinkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C87CB1391FCAFD8B54EAF187EB780A65 /* Pods-DoorDrinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoorDrinkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE7B30BE29CECDFF066DC3DB2F68F022 /* Pods-DoorDrink-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoorDrink-Info.plist"; sourceTree = "<group>"; };
+		E28CC8EEEC83F391AD2FB3483A7B9ADA /* Pods-DoorDrink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoorDrink.release.xcconfig"; sourceTree = "<group>"; };
+		EE585B5E1BC3214DD9F7B1852D479A09 /* Pods-DoorDrinkTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoorDrinkTests-dummy.m"; sourceTree = "<group>"; };
+		F4F839696A341C80B6A24581F97C76A0 /* Pods-DoorDrinkTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoorDrinkTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092E958FC4B1A9F49F0FC6FB5419F799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44CB808EAD71716C896224C99B0B842 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD91DF206A59C5EA9A8D92303466D48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92251890C3EE92DE70521D952D6510CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF2DAA52D3DB99A41A4A795BD60CDF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF7C384A5ECC9D44CCF7ABBE4DD4F98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E80F2E6064607A0800004DCCDF1936C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80C7A118A0E09AD85FCC491B2EA79FA0 /* Pods-DoorDrink */,
+				12BF08B14FA031E35A74B40326E457CC /* Pods-DoorDrink-DoorDrinkUITests */,
+				B0680FDC436969FF511997D9EB7DBE1B /* Pods-DoorDrinkTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C51D11126144E1D41A4747666630D0A /* Pods-DoorDrinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AF2590A94F65DB6ABA3C0983968C9A6 /* Pods-DoorDrinkTests.modulemap */,
+				2E640B0E91AB8C28C674085899DE7AD6 /* Pods-DoorDrinkTests-acknowledgements.markdown */,
+				46A7BD8FB74FF81D1B93A5D550EDEDF6 /* Pods-DoorDrinkTests-acknowledgements.plist */,
+				EE585B5E1BC3214DD9F7B1852D479A09 /* Pods-DoorDrinkTests-dummy.m */,
+				F4F839696A341C80B6A24581F97C76A0 /* Pods-DoorDrinkTests-Info.plist */,
+				40E0A41702E76D209471596FD2630D9A /* Pods-DoorDrinkTests-umbrella.h */,
+				C87CB1391FCAFD8B54EAF187EB780A65 /* Pods-DoorDrinkTests.debug.xcconfig */,
+				ACF8C0B439BE412B49CAC09BBAFAC021 /* Pods-DoorDrinkTests.release.xcconfig */,
+			);
+			name = "Pods-DoorDrinkTests";
+			path = "Target Support Files/Pods-DoorDrinkTests";
+			sourceTree = "<group>";
+		};
+		8AC3C2B45619C393A8FD79A013D942B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0F54BD34F7F0584DD7443F9E0CA9A18 /* Pods-DoorDrink */,
+				8B5983CC1D23DF609083E02F92B48A66 /* Pods-DoorDrink-DoorDrinkUITests */,
+				7C51D11126144E1D41A4747666630D0A /* Pods-DoorDrinkTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B5983CC1D23DF609083E02F92B48A66 /* Pods-DoorDrink-DoorDrinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91EDFE6DC4A609173F6261EEAD18C183 /* Pods-DoorDrink-DoorDrinkUITests.modulemap */,
+				412C2A374DFB2A686F744CA865CF6726 /* Pods-DoorDrink-DoorDrinkUITests-acknowledgements.markdown */,
+				3A21645C002EA456C0ACA74A362CD5E4 /* Pods-DoorDrink-DoorDrinkUITests-acknowledgements.plist */,
+				87902DF0DB2F53A2861C8135694AC14D /* Pods-DoorDrink-DoorDrinkUITests-dummy.m */,
+				7B0A605E5E5FE3FBFB6C2E7B3B2EE1F9 /* Pods-DoorDrink-DoorDrinkUITests-Info.plist */,
+				0923A2D4A7F3DC6F1331C7B40D8EF3DA /* Pods-DoorDrink-DoorDrinkUITests-umbrella.h */,
+				BD096F1144ECAD62B395F843C9B7647D /* Pods-DoorDrink-DoorDrinkUITests.debug.xcconfig */,
+				18159EFEAD99E60ECFB389AF1F6C23D6 /* Pods-DoorDrink-DoorDrinkUITests.release.xcconfig */,
+			);
+			name = "Pods-DoorDrink-DoorDrinkUITests";
+			path = "Target Support Files/Pods-DoorDrink-DoorDrinkUITests";
+			sourceTree = "<group>";
+		};
+		A0F54BD34F7F0584DD7443F9E0CA9A18 /* Pods-DoorDrink */ = {
+			isa = PBXGroup;
+			children = (
+				84ADDEB385ED65C98ECB5026B67CA63D /* Pods-DoorDrink.modulemap */,
+				AC38F488E373CD8126B6FF31BE7BDAED /* Pods-DoorDrink-acknowledgements.markdown */,
+				B47F7365DD083C7F308192388DEAB2D9 /* Pods-DoorDrink-acknowledgements.plist */,
+				36ABDE3DEFF379C9037357738613F365 /* Pods-DoorDrink-dummy.m */,
+				DE7B30BE29CECDFF066DC3DB2F68F022 /* Pods-DoorDrink-Info.plist */,
+				682DE65982758DB46885D26FA90A1B47 /* Pods-DoorDrink-umbrella.h */,
+				927E00EBBEF4C3620D784AD1C0B4850A /* Pods-DoorDrink.debug.xcconfig */,
+				E28CC8EEEC83F391AD2FB3483A7B9ADA /* Pods-DoorDrink.release.xcconfig */,
+			);
+			name = "Pods-DoorDrink";
+			path = "Target Support Files/Pods-DoorDrink";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1E80F2E6064607A0800004DCCDF1936C /* Products */,
+				8AC3C2B45619C393A8FD79A013D942B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		502139F6893694C5AF58EA064D2FD722 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C733257C5A77AA5CACA3D6F39E5DD1 /* Pods-DoorDrink-DoorDrinkUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E608BC87DB9377176D5657AA924A17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F417527AF476452CF632D95EE990120F /* Pods-DoorDrink-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A63F0BB0E9F9F8AD96FE4BD66FF867 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD07E823452FC5F4BD503836531A6F4 /* Pods-DoorDrinkTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58D5BF521C12611051802EA7A050EEBE /* Pods-DoorDrinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6FB2ED975962435A71A92809178FC9 /* Build configuration list for PBXNativeTarget "Pods-DoorDrinkTests" */;
+			buildPhases = (
+				D0A63F0BB0E9F9F8AD96FE4BD66FF867 /* Headers */,
+				3FC3CB4E73F4BEFBCAD38E714540AE72 /* Sources */,
+				BBF2DAA52D3DB99A41A4A795BD60CDF5 /* Frameworks */,
+				26A68936178003122234AEFCFC5AA6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CD3A7ABF12CD2408B53463256F09336 /* PBXTargetDependency */,
+			);
+			name = "Pods-DoorDrinkTests";
+			productName = Pods_DoorDrinkTests;
+			productReference = B0680FDC436969FF511997D9EB7DBE1B /* Pods-DoorDrinkTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD179960BE9943B4B426F43497DA0494 /* Pods-DoorDrink-DoorDrinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702B15B167C9BCF9CE17285EADD685EF /* Build configuration list for PBXNativeTarget "Pods-DoorDrink-DoorDrinkUITests" */;
+			buildPhases = (
+				502139F6893694C5AF58EA064D2FD722 /* Headers */,
+				BBDE91348E0EFC1E97B22319632F8D68 /* Sources */,
+				092E958FC4B1A9F49F0FC6FB5419F799 /* Frameworks */,
+				3A1641CD6644AF2A3961CF9380380156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DoorDrink-DoorDrinkUITests";
+			productName = Pods_DoorDrink_DoorDrinkUITests;
+			productReference = 12BF08B14FA031E35A74B40326E457CC /* Pods-DoorDrink-DoorDrinkUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBD179409DD53448C5412613AD5A1687 /* Pods-DoorDrink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE5823EED04644D04763F0E6A0A814C /* Build configuration list for PBXNativeTarget "Pods-DoorDrink" */;
+			buildPhases = (
+				50E608BC87DB9377176D5657AA924A17 /* Headers */,
+				70F3BDC826F6B05E0D3B9D8FFBFCA056 /* Sources */,
+				AD91DF206A59C5EA9A8D92303466D48B /* Frameworks */,
+				14FCEC1617FAD63EA7CB768EB5212B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DoorDrink";
+			productName = Pods_DoorDrink;
+			productReference = 80C7A118A0E09AD85FCC491B2EA79FA0 /* Pods-DoorDrink */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1E80F2E6064607A0800004DCCDF1936C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD179409DD53448C5412613AD5A1687 /* Pods-DoorDrink */,
+				CD179960BE9943B4B426F43497DA0494 /* Pods-DoorDrink-DoorDrinkUITests */,
+				58D5BF521C12611051802EA7A050EEBE /* Pods-DoorDrinkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14FCEC1617FAD63EA7CB768EB5212B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A68936178003122234AEFCFC5AA6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1641CD6644AF2A3961CF9380380156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC3CB4E73F4BEFBCAD38E714540AE72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137C72D1F119B855ADD8B6596224E2CD /* Pods-DoorDrinkTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F3BDC826F6B05E0D3B9D8FFBFCA056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC07AB860A71A1CDB4B97095E57880CC /* Pods-DoorDrink-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDE91348E0EFC1E97B22319632F8D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6023CD8E5223453C063865050AB8F4E /* Pods-DoorDrink-DoorDrinkUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CD3A7ABF12CD2408B53463256F09336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DoorDrink";
+			target = FBD179409DD53448C5412613AD5A1687 /* Pods-DoorDrink */;
+			targetProxy = CD152C05A1AAE757050AA547689A5357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		284D1A936DF9CF2576E3F0E54467C020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD096F1144ECAD62B395F843C9B7647D /* Pods-DoorDrink-DoorDrinkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoorDrink-DoorDrinkUITests/Pods-DoorDrink-DoorDrinkUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoorDrink-DoorDrinkUITests/Pods-DoorDrink-DoorDrinkUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66F369995817D49F72C6E4A45EDD800E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF8C0B439BE412B49CAC09BBAFAC021 /* Pods-DoorDrinkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoorDrinkTests/Pods-DoorDrinkTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoorDrinkTests/Pods-DoorDrinkTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92486E5E72E54FAF60E1A7D022C21B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		934ED2B84836A780113D1F63484628B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B70A3D7D02A40ECE96842DDFE112FBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927E00EBBEF4C3620D784AD1C0B4850A /* Pods-DoorDrink.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoorDrink/Pods-DoorDrink-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoorDrink/Pods-DoorDrink.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3187644EC47C4F265DCA439AD5F4D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87CB1391FCAFD8B54EAF187EB780A65 /* Pods-DoorDrinkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoorDrinkTests/Pods-DoorDrinkTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoorDrinkTests/Pods-DoorDrinkTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D138C20C4888646811F135F75F9D231A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18159EFEAD99E60ECFB389AF1F6C23D6 /* Pods-DoorDrink-DoorDrinkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoorDrink-DoorDrinkUITests/Pods-DoorDrink-DoorDrinkUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoorDrink-DoorDrinkUITests/Pods-DoorDrink-DoorDrinkUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD450E5F63DE9BD20E6A7293195FCB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28CC8EEEC83F391AD2FB3483A7B9ADA /* Pods-DoorDrink.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoorDrink/Pods-DoorDrink-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoorDrink/Pods-DoorDrink.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934ED2B84836A780113D1F63484628B2 /* Debug */,
+				92486E5E72E54FAF60E1A7D022C21B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702B15B167C9BCF9CE17285EADD685EF /* Build configuration list for PBXNativeTarget "Pods-DoorDrink-DoorDrinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284D1A936DF9CF2576E3F0E54467C020 /* Debug */,
+				D138C20C4888646811F135F75F9D231A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6FB2ED975962435A71A92809178FC9 /* Build configuration list for PBXNativeTarget "Pods-DoorDrinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3187644EC47C4F265DCA439AD5F4D2F /* Debug */,
+				66F369995817D49F72C6E4A45EDD800E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE5823EED04644D04763F0E6A0A814C /* Build configuration list for PBXNativeTarget "Pods-DoorDrink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70A3D7D02A40ECE96842DDFE112FBB3 /* Debug */,
+				FD450E5F63DE9BD20E6A7293195FCB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
